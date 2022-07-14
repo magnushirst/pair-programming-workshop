@@ -4,7 +4,7 @@ A repo to assist in the practice of pair programming
 
 ## What Is Pair Programming
 
-A great explanation of Pair Programming from (Uncle Bob)[https://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html]
+A great explanation of Pair Programming from [Uncle Bob](https://blog.cleancoder.com/uncle-bob/2021/01/17/Pairing.html)
 > Everybody pairs from time to time. It is a rare programmer who has not sat down with another programmer to look something over or help find a bug.
  
 > Deep problems, that require much heavy thinking, do not often lend themselves to pairing. The interaction between the programmers tends to disrupt the necessary concentration.
@@ -27,18 +27,39 @@ A great explanation of Pair Programming from (Uncle Bob)[https://blog.cleancoder
 
 
 ## Techniques
- * The Driver-Navigator Style 
- * The Unstructured Pair Style
- * The Strong Style Pairing
- * Ping-Pong Pairing
- * Backseat Navigator Style
+### The Driver-Navigator Style 
+     
+**The Driver** is the person at the keyboard doing the coding. Their objective is to focus on completing the small milestones and talk through what they are doing.
 
-## Tips
+**The Navigator** is in the observer position, while the driver is typing, they review the code as they go, giving directions and helping. As they are not coding, they can spend time also thinking about the larger solution, the architecture, potential bugs and issues that may arise.
 
+The purpose of this technique is to have each contributor focussed on the short term tactical solution of the code and also the strategic e2e solution.
+
+An example of the technique would be to:
+
+  * Start with a well enough defined task.  
+  * Agree on one goal/objective at a time. This can be done by writing a unit test, thinking of the commit message or a jira subtask.
+  * Switch up the roles regularly. The goal is not to have the same person in the role. You should be switching so you find a rythem and have a shared contribution.
+  * As navigator, your role isn't to be worrying as much about the details of the code, but to be able to take a step back and complement your pair's more tactical mode with medium-term thinking. ALlow them to focus on coding while you keep track of next steps, potential obstacles and ideas on sticky notes and discuss them after the tiny goal is done, so as not to interrupt the driver's flow.
+
+### The Unstructured Pair Style
+
+### The Strong Style Pairing
+
+### Ping-Pong Pairing
+
+### Backseat Navigator Style
+
+
+## Tools
+ * [Intellij](https://www.jetbrains.com/help/idea/code-with-me.html)
+ * [VS Code](https://code.visualstudio.com/learn/collaboration/live-share)
+ * [Tuple](https://tuple.app/downloads/)
 
 ## Bad Practices
-
+ * Feeling pressured to not allow for breaks
+ * Staying silent and letting one engineer contribute 
+ * Not being aligned on the pairing style
 
 ## Exercise
-
-
+Splitting up into groups of 2 or 3, pick a kata to work on. Some have been provided in `/katas` but feel free to use others if you'd like. As a group, agree on a pair programming style that you want to try and hop on a call to start the coding! Try and keep a consious effort to stick to your technique and not fall into the trap of 1 contributing more than another. Contributing doesn't just mean coding, it also includes questioning and suggesting improvements throughout the session.
