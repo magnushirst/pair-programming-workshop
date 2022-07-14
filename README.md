@@ -47,6 +47,13 @@ An example of the technique would be to:
 ### The Strong Style Pairing
 
 ### Ping-Pong Pairing
+This technique embraces Test-Driven Development (TDD) and is perfect when you have a clearly defined task that can be implemented in a test-driven way. It uses the Red, Green Blue technique of TDD and splits it between 2 engineers.
+
+* "Ping": Developer A writes a failing test
+* "Pong": Developer B writes the implementation to make it pass.
+* Developer B then starts the next "Ping", i.e. the next failing test.
+
+Each "Pong" can also be followed by refactoring the code together, before you move on to the next failing test.
 
 ### Backseat Navigator Style
 
