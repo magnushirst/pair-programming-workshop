@@ -26,7 +26,16 @@ A great explanation of Pair Programming from [Uncle Bob](https://blog.cleancoder
 > Bottom line: Don’t be a jerk. Pair sometimes, don’t pair other times. Pair enough so that you have a good grasp of the overall system, and know enough of what your teammates are doing that you could step into their roles if the need arose. Don’t pair so much that you hate your job, and your teammates.
 
 
-## Techniques
+## Example Techniques
+### Ping-Pong Pairing
+This technique **embraces Test-Driven Development (TDD)** and is perfect when you have a clearly defined task that can be implemented in a test-driven way. It uses the Red, Green Blue technique of TDD and splits it between 2 engineers.
+
+* "Ping": Developer A writes a failing test
+* "Pong": Developer B writes the implementation to make it pass.
+* Developer B then starts the next "Ping", i.e. the next failing test.
+
+Each "Pong" can also be followed by refactoring the code together, before you move on to the next failing test.
+
 ### The Driver-Navigator Style 
      
 **The Driver** is the person at the keyboard doing the coding. Their objective is to focus on completing the small milestones and talk through what they are doing.
@@ -45,17 +54,6 @@ An example of the technique would be to:
 ### The Unstructured Pair Style
 This type of pairing is common when there is no specific approach being used. This technique is best for **mobbing** on a problem when there's **more than 2 people contributing**. You have to be careful not to fall into bad practices and micro-managing the coding.
 
-### Ping-Pong Pairing
-This technique **embraces Test-Driven Development (TDD)** and is perfect when you have a clearly defined task that can be implemented in a test-driven way. It uses the Red, Green Blue technique of TDD and splits it between 2 engineers.
-
-* "Ping": Developer A writes a failing test
-* "Pong": Developer B writes the implementation to make it pass.
-* Developer B then starts the next "Ping", i.e. the next failing test.
-
-Each "Pong" can also be followed by refactoring the code together, before you move on to the next failing test.
-
-
-
 ## Tools
  * [Intellij](https://www.jetbrains.com/help/idea/code-with-me.html)
  * [VS Code](https://code.visualstudio.com/learn/collaboration/live-share)
@@ -68,4 +66,5 @@ Each "Pong" can also be followed by refactoring the code together, before you mo
  * Not being aligned on the pairing style
 
 ## Exercise
-Splitting up into groups of 2 or 3, pick a kata to work on. Some have been provided in `/katas` but feel free to use others if you'd like. As a group, agree on a pair programming style that you want to try and hop on a call to start the coding! Try and keep a consious effort to stick to your technique and not fall into the trap of 1 contributing more than another. Contributing doesn't just mean coding, it also includes questioning and suggesting improvements throughout the session.
+1) Split up into groups of 2 or 3, pick a kata to work on. Some have been provided in `/katas` but feel free to use others if you'd like. 
+2) In pairs, agree on a pair programming style that you want to try and hop on a call to start the coding! Try and keep a consious effort to stick to your technique and not fall into the trap of 1 contributing more than another. Contributing doesn't just mean coding, it also includes questioning and suggesting improvements throughout the session.
