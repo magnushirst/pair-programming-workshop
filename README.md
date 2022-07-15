@@ -43,11 +43,10 @@ An example of the technique would be to:
   * As navigator, your role isn't to be worrying as much about the details of the code, but to be able to take a step back and complement your pair's more tactical mode with medium-term thinking. ALlow them to focus on coding while you keep track of next steps, potential obstacles and ideas on sticky notes and discuss them after the tiny goal is done, so as not to interrupt the driver's flow.
 
 ### The Unstructured Pair Style
-
-### The Strong Style Pairing
+This type of pairing is common when there is no specific approach being used. This technique is best for **mobbing** on a problem when there's **more than 2 people contributing**. You have to be careful not to fall into bad practices and micro-managing the coding.
 
 ### Ping-Pong Pairing
-This technique embraces Test-Driven Development (TDD) and is perfect when you have a clearly defined task that can be implemented in a test-driven way. It uses the Red, Green Blue technique of TDD and splits it between 2 engineers.
+This technique **embraces Test-Driven Development (TDD)** and is perfect when you have a clearly defined task that can be implemented in a test-driven way. It uses the Red, Green Blue technique of TDD and splits it between 2 engineers.
 
 * "Ping": Developer A writes a failing test
 * "Pong": Developer B writes the implementation to make it pass.
@@ -55,7 +54,6 @@ This technique embraces Test-Driven Development (TDD) and is perfect when you ha
 
 Each "Pong" can also be followed by refactoring the code together, before you move on to the next failing test.
 
-### Backseat Navigator Style
 
 
 ## Tools
@@ -64,6 +62,7 @@ Each "Pong" can also be followed by refactoring the code together, before you mo
  * [Tuple](https://tuple.app/downloads/)
 
 ## Bad Practices
+ * Micro-Management of coding
  * Feeling pressured to not allow for breaks
  * Staying silent and letting one engineer contribute 
  * Not being aligned on the pairing style
